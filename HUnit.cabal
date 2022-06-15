@@ -39,8 +39,6 @@ library
     Test.HUnit.Terminal
     Test.HUnit.Text
     Test.HUnit
-  other-modules:
-    Paths_HUnit
   default-language: Haskell2010
   ghc-options: -Wall
 
@@ -56,11 +54,5 @@ test-suite tests
     call-stack >=0.3.0,
     deepseq,
     filepath
-  other-modules:
-    HUnitTestBase
-    HUnitTestExtended
-    TerminalTest
-    Example
-    Paths_HUnit
   default-language: Haskell2010
   ghc-options: -Wall
